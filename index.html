@@ -1,9 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Max Prihodko</title>
-  </head>
-  <body>
-    <h1>Welcome to My Page!</h1>
-  </body>
+
+<head>
+  <title>Max Prihodko</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/88a513e7dd.js" crossorigin="anonymous"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+          sans: ['Inter', 'sans-serif']
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="font-sans mx-auto max-w-prose" data-new-gr-c-s-check-loaded="14.1019.0" data-gr-ext-installed="">
+  <div class="pt-12 pb-4"></div>
+    <div class="flex mx-auto flex-col text-center justify-center">
+      <div>
+        <img class="object-cover mx-auto h-36 w-36 rounded-full" src="https://avatars.githubusercontent.com/u/78522182?v=4"
+          alt="author profile image">
+        <h1 class="mt-7 font-extrabold text-4xl">Max Prihodko</h1>
+      </div>
+      <p class="text-gray-500 mt-7 max-w-md self-center">I am a 16-year-old software developer with experience programming in a plethora of languages. These include C, C#, C++, Python, Java, Javascript, and Typescript. </p>
+    </div>
+  </div>
+  <section class="mt-7">
+    <div class="flex flex-wrap text-center">
+      <div class="w-full pt-4">
+        <div>
+          <a href="https://search.discordprofile.info/806212559043690496" target="_blank">
+            <button
+              class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              type="button">
+              <i class="fab fa-discord"></i>
+            </button>
+          </a>
+          <a href="https://instagram.com/maxxprihodko" target="_blank">
+            <button
+              class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              type="button">
+              <i class="fab fa-instagram"></i>
+            </button>
+          </a>
+          <a href="https://github.com/maxxprihodko" target="_blank">
+            <button
+              class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              type="button">
+              <i class="fab fa-github"></i>
+            </button>
+          </a>
+          <a href="https://www.linkedin.com/in/max-prihodko/" target="_blank">
+            <button
+              class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              type="button">
+              <i class="fab fa-linkedin"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="relative px-4 pt-4 pb-4">
+    <!-- divider -->
+    <div class="relative my-8">
+      <div class="absolute inset-0 flex items-center" aria-hidden="true">
+        <div class="w-full border-t border-gray-200"></div>
+      </div>
+      <div class="relative flex justify-center ">
+        <span class="bg-white px-2 text-gray-200">
+          <i class="text-xs far fa-square"></i>
+        </span>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
