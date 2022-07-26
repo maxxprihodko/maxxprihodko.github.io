@@ -7,7 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
 
+  <!-- Tailwinnd CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/88a513e7dd.js" crossorigin="anonymous"></script>
 
   <!-- Fonts -->
@@ -15,6 +18,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <script>
     tailwind.config = {
@@ -30,56 +36,64 @@
 <body class="max-w-prose flex flex-col justify-center align-center text-center my-auto mx-auto">
   <div class="font-sans flex flex-col mx-auto my-auto">
     <div class="pt-12 pb-7">
-      <div class="py-7 text-gray-400 flex mx-auto flex-row text-center text-sm justify-center">
-        <a class="decoration-none hover:text-gray-500 mr-4 cursor-pointer">ABOUT</a>
-        <a class="decoration-none hover:text-gray-500 cursor-pointer">PROJECTS</a>
+      <div class="py-7 text-gray-400 flex mx-auto flex-row text-center text-sm justify-center animate__animated animate__fadeIn">
+        <a class="decoration-none ease-in-out duration-300 hover:text-gray-900 mr-4 cursor-pointer">ABOUT</a>
+        <a class="decoration-none ease-in-out duration-300 hover:text-gray-900 cursor-pointer">PROJECTS</a>
       </div>
-      <div class="flex mx-auto flex-col text-center justify-center">
+      <div class="flex mx-auto flex-col text-center justify-center animate__animated animate__fadeIn">
         <div>
           <img class="object-cover mx-auto h-36 w-36 rounded-full"
             src="https://avatars.githubusercontent.com/u/78522182?v=4" alt="author profile image">
-          <h1 class="mt-7 font-extrabold text-4xl">Max Prihodko</h1>
+          <h1 class="mt-7 animate__animated animate__rubberBand font-extrabold text-4xl">Max Prihodko</h1>
         </div>
-        <p class="text-gray-500 mt-7 px-6 max-w-lg text-center self-center">I am a 16-year-old software developer with experience
-          programming in a plethora of languages. Most of all, I enjoy low-end development in C or C++ or web development in Typescript/Javascript.
+        <p class="text-gray-500 mt-7 px-6 max-w-lg text-center self-center">I am a 16-year-old <a
+            href="https://en.wikipedia.org/wiki/Software_development" target="_blank"
+            class="underline decoration-sky-500 cursor-pointer underline-offset-2 duration-300 decoration-2">software
+            developer</a> with experience
+          programming in a plethora of languages. Most of all, I enjoy <a
+            href="https://en.wikipedia.org/wiki/Low-level_programming_language" target="_blank"
+            class="underline decoration-pink-500 cursor-pointer underline-offset-2 duration-300 decoration-2">low-end
+            programming languages</a> like C or C++ or <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank"
+            class="underline decoration-indigo-500 cursor-pointer underline-offset-2 duration-300 decoration-2">web
+            development</a> in Typescript/Javascript.
         </p>
       </div>
     </div>
     <section class="pb-7">
-      <div class="flex flex-wrap text-center">
+      <div class="flex flex-wrap text-center animate__animated animate__fadeIn">
         <div class="w-full pt-4">
           <div>
             <a href="https://search.discordprofile.info/806212559043690496" target="_blank">
               <button
-                class="bg-white hover:scale-110 text-lightBlue-400 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                class="bg-white hover:scale-125 ease-in-out duration-300 text-lightBlue-400 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button">
                 <i class="fab fa-discord"></i>
               </button>
             </a>
             <a href="https://instagram.com/maxxprihodko" target="_blank">
               <button
-                class="bg-white hover:scale-110 text-blueGray-800 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                class="bg-white hover:scale-125 ease-in-out duration-300 text-blueGray-800 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button">
                 <i class="fab fa-instagram"></i>
               </button>
             </a>
             <a href="https://github.com/maxxprihodko" target="_blank">
               <button
-                class="bg-white hover:scale-110 text-blueGray-800 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                class="bg-white hover:scale-125 ease-in-out duration-300 text-blueGray-800 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button">
                 <i class="fab fa-github"></i>
               </button>
             </a>
             <a href="https://www.linkedin.com/in/max-prihodko/" target="_blank">
               <button
-                class="bg-white hover:scale-110 text-blueGray-800 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                class="bg-white hover:scale-125 ease-in-out duration-300 text-blueGray-800 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button">
                 <i class="fab fa-linkedin"></i>
               </button>
             </a>
             <a href="mailto:max@prihodko.com?Subject=" target="_blank">
               <button
-                class="bg-white hover:scale-110 text-blueGray-800 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                class="bg-white hover:scale-125 ease-in-out duration-300 text-blueGray-800 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button">
                 <i class="fa-solid fa-envelope"></i>
               </button>
@@ -89,7 +103,7 @@
       </div>
     </section>
   </div>
-  <footer class="relative px-4 pt-4 pb-4">
+  <footer class="relative px-4 pt-4 pb-4 animate__animated animate__fadeIn">
     <!-- divider -->
     <div class="relative my-8">
       <div class="absolute inset-0 flex items-center" aria-hidden="true">
